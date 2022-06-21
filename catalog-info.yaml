@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-sample-service
+  description: Sample React web app
+  labels:
+    system: web-apps
+  tags:
+    - javascript
+    - react
+  links:
+    - url: https://github.com/briandesousa/backstage-sample-service
+      title: Backstage Sample Service GitHub
+      icon: code
+  annotations:
+    pagerduty.com/integration-key: c9181af33a984c06d01144f420df074e
+    opsgenie.com/component-selector: 'tag:"service:backstage-sample-service"'
+    jenkins.io/github-folder: 'briandesousa/backstage-sample-service'
+    fossa.io/project-name: backstage-sample-service
+    snyk.io/org-name: briand
+    snyk.io/project-ids: 1aff69bc-de69-4d0c-b069-187b159c4465
+    github.com/project-slug: 'briandesousa/backstage-sample-service'
+    goharbor.io/repository-slug: 'briandesousa/backstage-sample-service'
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: briandesousa
