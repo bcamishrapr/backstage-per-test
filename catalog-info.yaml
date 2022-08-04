@@ -22,7 +22,7 @@ metadata:
     github.com/project-slug: 'bcamishrapr/backstage-per-test'
     goharbor.io/repository-slug: 'bcamishrapr/backstage-per-test'
     backstage.io/techdocs-ref: dir:.
-    roadie-backstage-pull-requests/default-filter: yes
+    roadie-backstage-pull-requests/default-filter: state:all
 spec:
   type: service
   lifecycle: experimental
