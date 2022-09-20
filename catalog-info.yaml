@@ -14,8 +14,7 @@ metadata:
       icon: code
   annotations:
     pagerduty.com/integration-key: c9181af33a984c06d01144f420df074e
-    #opsgenie.com/component-selector: 'priority:"service:backstage-sample-service"'
-    opsgenie.com/component-selector: 'job:"emma"'
+    opsgenie.com/component-selector: 'job:"kube-state-metrics"'
     jenkins.io/github-folder: 'bcamishrapr/backstage-per-test'
     fossa.io/project-name: backstage-sample-service
     snyk.io/org-name: prasoon
