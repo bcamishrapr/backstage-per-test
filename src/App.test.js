@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import App from './App';
 
 // @TODO: This Is Basic Example of TO_DO /Prasoon
-// TESTME(PRASOON) Nobody knows why this is here
+// FIXME(PRASOON) Nobody knows why this is here
 
 test('renders learn react link', () => {
   render(<App />);
