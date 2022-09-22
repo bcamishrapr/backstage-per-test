@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-// @todo: This Is Basic Example of TO_DO /Rugvip
+// @TEST: This Is Basic Example of TO_DO /Prasoon
 
 test('renders learn react link', () => {
   render(<App />);
