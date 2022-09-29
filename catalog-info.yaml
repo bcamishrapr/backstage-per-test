@@ -24,7 +24,7 @@ metadata:
     goharbor.io/repository-slug: 'bcamishrapr/backstage-per-test'
     backstage.io/techdocs-ref: dir:.
     roadie-backstage-pull-requests/default-filter: state:all
-    grafana/tag-selector: "redis"
+    grafana/tag-selector: "prometheus"
 spec:
   type: service
   lifecycle: experimental
