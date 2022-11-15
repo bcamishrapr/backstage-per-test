@@ -25,6 +25,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     roadie-backstage-pull-requests/default-filter: state:all
     grafana/tag-selector: "prometheus"
+    sonarqube.org/project-key: "admin-service"
 spec:
   type: service
   lifecycle: experimental
