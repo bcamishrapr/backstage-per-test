@@ -25,7 +25,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     roadie-backstage-pull-requests/default-filter: state:all
     grafana/tag-selector: "prometheus"
-    sonarqube.org/project-key: 'default/device-lifecycle-management'
+    sonarqube.org/project-key: billing-proxy
 spec:
   type: service
   lifecycle: experimental
